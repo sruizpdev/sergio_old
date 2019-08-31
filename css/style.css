@@ -28,6 +28,7 @@ h1 {
 }
 h2 {
   font-size: 4rem;
+  line-height: 1.2;
 }
 h3 {
   font-size: 3.2rem;
@@ -45,6 +46,32 @@ img {
 }
 .no-margin {
   margin: 0;
+}
+.btn{
+  display:block;
+  text-align: center;
+  padding: 1rem 3rem;
+  margin-top: 2rem 0;
+  color:white;
+  text-decoration: none;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size:2rem;
+}
+@media (min-width: 768px) {
+  .btn{
+    display: inline-block;
+
+  }
+  
+}
+.btn-primario{
+  background-color: #000000
+
+}
+.btn-secundario{
+  background-color: #784d3c;
 }
 
 /* Header */
@@ -81,6 +108,9 @@ img {
   display: block;
   text-align: center;
   font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+
 }
 
 @media (min-width: 768px) {
@@ -144,4 +174,33 @@ img {
 .curso{
   padding-bottom: 3rem;
   border-bottom: 1px solid #e1e1e1;
+}
+.curso:last-of-type{
+  border-bottom: none;
+}
+.curso p{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+
+}
+.curso p span{
+  font-weight: 400;
+}
+.site-footer{
+  background-color: #000000;
+  padding: 3rem;
+  margin-top:4rem;
+
+}
+.site-footer p{
+  color:white;
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+.site-footer p span {
+  font-weight: 700;
+
 }
